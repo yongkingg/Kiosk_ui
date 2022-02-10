@@ -57,37 +57,34 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp">
 
-                        <ImageButton
-                            android:id="@+id/imageButton5"
+                        <Button
+                            android:id="@+id/minusBtn"
                             android:layout_width="50dp"
                             android:layout_height="50dp"
-                            android:background="@null"
+                            android:background="@drawable/minus"
                             android:scaleType="fitCenter"
-                            android:src="@drawable/minus"
-                            app:layout_constraintEnd_toStartOf="@+id/textView9"
+                            app:layout_constraintEnd_toStartOf="@+id/beverageCount"
                             app:layout_constraintTop_toTopOf="parent" />
 
                         <TextView
-                            android:id="@+id/textView9"
+                            android:id="@+id/beverageCount"
                             android:layout_width="50dp"
                             android:layout_height="50dp"
                             android:background="@drawable/beveragecount"
                             android:gravity="center"
-                            android:text="1"
                             android:textColor="@color/black"
                             android:textSize="30sp"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toTopOf="parent" />
 
-                        <ImageButton
-                            android:id="@+id/imageButton6"
+                        <Button
+                            android:id="@+id/plusBtn"
                             android:layout_width="50dp"
                             android:layout_height="50dp"
-                            android:background="@null"
+                            android:background="@drawable/plus"
                             android:scaleType="fitCenter"
-                            android:src="@drawable/plus"
-                            app:layout_constraintStart_toEndOf="@+id/textView9"
+                            app:layout_constraintStart_toEndOf="@+id/beverageCount"
                             app:layout_constraintTop_toTopOf="parent" />
                     </androidx.constraintlayout.widget.ConstraintLayout>
 

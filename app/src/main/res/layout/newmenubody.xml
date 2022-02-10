@@ -33,13 +33,18 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@drawable/starwbeery"
+                        android:scaleType="fitXY"/>
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal">
                         <Button
-                            android:id="@+id/coffee1"
+                            android:id="@+id/baverage2"
                             android:layout_width="100dp"
                             android:layout_height="100dp"
                             android:background="@drawable/beverage"
@@ -75,7 +80,7 @@
                         android:layout_height="wrap_content"
                         android:orientation="horizontal">
                         <Button
-                            android:id="@+id/coffee2"
+                            android:id="@+id/baverage3"
                             android:layout_width="100dp"
                             android:layout_height="100dp"
                             android:background="@drawable/beverage"
@@ -111,7 +116,7 @@
                         android:layout_height="wrap_content"
                         android:orientation="horizontal">
                         <Button
-                            android:id="@+id/coffee3"
+                            android:id="@+id/baverage4"
                             android:layout_width="100dp"
                             android:layout_height="100dp"
                             android:background="@drawable/beverage"
@@ -147,7 +152,7 @@
                         android:layout_height="wrap_content"
                         android:orientation="horizontal">
                         <Button
-                            android:id="@+id/coffee4"
+                            android:id="@+id/baverage5"
                             android:layout_width="100dp"
                             android:layout_height="100dp"
                             android:background="@drawable/beverage"
@@ -183,115 +188,7 @@
                         android:layout_height="wrap_content"
                         android:orientation="horizontal">
                         <Button
-                            android:id="@+id/coffee5"
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:background="@drawable/beverage"
-                            android:layout_marginLeft="10dp"
-                            android:layout_marginTop="10dp"/>
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="vertical"
-                            android:layout_gravity="center">
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="아메리카노"
-                                android:fontFamily="@font/body"
-                                android:textColor="@color/black"
-                                android:layout_marginLeft="10dp"
-                                android:layout_marginTop="10dp"
-                                android:textSize="20sp"/>
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="6,300원"
-                                android:fontFamily="@font/body"
-                                android:textColor="@color/black"
-                                android:layout_marginLeft="10dp"
-                                android:layout_marginTop="10dp"
-                                android:textSize="20sp"/>
-                        </LinearLayout>
-                    </LinearLayout>
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal">
-                        <Button
-                            android:id="@+id/coffee6"
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:background="@drawable/beverage"
-                            android:layout_marginLeft="10dp"
-                            android:layout_marginTop="10dp"/>
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="vertical"
-                            android:layout_gravity="center">
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="아메리카노"
-                                android:fontFamily="@font/body"
-                                android:textColor="@color/black"
-                                android:layout_marginLeft="10dp"
-                                android:layout_marginTop="10dp"
-                                android:textSize="20sp"/>
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="6,300원"
-                                android:fontFamily="@font/body"
-                                android:textColor="@color/black"
-                                android:layout_marginLeft="10dp"
-                                android:layout_marginTop="10dp"
-                                android:textSize="20sp"/>
-                        </LinearLayout>
-                    </LinearLayout>
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal">
-                        <Button
-                            android:id="@+id/coffee7"
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:background="@drawable/beverage"
-                            android:layout_marginLeft="10dp"
-                            android:layout_marginTop="10dp"/>
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="vertical"
-                            android:layout_gravity="center">
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="아메리카노"
-                                android:fontFamily="@font/body"
-                                android:textColor="@color/black"
-                                android:layout_marginLeft="10dp"
-                                android:layout_marginTop="10dp"
-                                android:textSize="20sp"/>
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="6,300원"
-                                android:fontFamily="@font/body"
-                                android:textColor="@color/black"
-                                android:layout_marginLeft="10dp"
-                                android:layout_marginTop="10dp"
-                                android:textSize="20sp"/>
-                        </LinearLayout>
-                    </LinearLayout>
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal">
-                        <Button
-                            android:id="@+id/coffee8"
+                            android:id="@+id/baverage6"
                             android:layout_width="100dp"
                             android:layout_height="100dp"
                             android:background="@drawable/beverage"

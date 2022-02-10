@@ -10,6 +10,7 @@ import androidx.fragment.app.Fragment
 class CouponPageBody: Fragment() {
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
         var view : View =  inflater.inflate(R.layout.couponpagebody,container,false)
+        requireActivity().supportFragmentManager.beginTransaction().replace(R.id.space,EmptyCouponBody()).commit()
         initEvent(view)
         return view
     }
@@ -25,7 +26,6 @@ class CouponPageBody: Fragment() {
         var setCouponBtn:Button = view.findViewById<Button>(R.id.setCouponBtn)
         setCouponBtn!!.setOnClickListener{
             requireActivity().supportFragmentManager.beginTransaction().replace(R.id.mainlayout,SetCouponBody()).commit()
-
         }
     }
 }

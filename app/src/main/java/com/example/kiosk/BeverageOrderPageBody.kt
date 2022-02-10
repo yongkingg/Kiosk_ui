@@ -16,19 +16,19 @@ class BeverageOrderPageBody: Fragment() {
     fun initEvent(view: View){
         var newBeverageBtn: Button? = view.findViewById<Button>(R.id.newBeverage)
         newBeverageBtn!!.setOnClickListener{
-            requireActivity().supportFragmentManager.beginTransaction().add(R.id.mainlayout,BeverageList()).commit()
+            requireActivity().supportFragmentManager.beginTransaction().replace(R.id.beverageSpace,NewMenuListBody()).commit()
         }
         var coffeeBtn:Button? = view.findViewById<Button>(R.id.coffee)
         coffeeBtn!!.setOnClickListener{
-            requireActivity().supportFragmentManager.beginTransaction().replace(R.id.mainlayout,BeverageList()).commit()
+            requireActivity().supportFragmentManager.beginTransaction().replace(R.id.beverageSpace,CoffeeListBody()).commit()
         }
         var iceFlakeBtn:Button? = view.findViewById<Button>(R.id.iceFlake)
         iceFlakeBtn!!.setOnClickListener{
-            requireActivity().supportFragmentManager.beginTransaction().replace(R.id.mainlayout,BeverageList()).commit()
+            requireActivity().supportFragmentManager.beginTransaction().replace(R.id.beverageSpace,NewMenuListBody()).commit()
         }
         var cakeBtn:Button? = view.findViewById<Button>(R.id.cake)
         cakeBtn!!.setOnClickListener{
-            requireActivity().supportFragmentManager.beginTransaction().replace(R.id.mainlayout,BeverageList()).commit()
+            requireActivity().supportFragmentManager.beginTransaction().replace(R.id.beverageSpace,NewMenuListBody()).commit()
         }
     }
 }

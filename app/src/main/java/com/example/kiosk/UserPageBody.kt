@@ -32,9 +32,5 @@ class UserPageBody: Fragment() {
             var intent = Intent(context,CouponPage::class.java)
             startActivity(intent)
         }
-
-        var giftBtn: Button? = view.findViewById<Button>(R.id.giftBtn)
-
-
     }
 }
