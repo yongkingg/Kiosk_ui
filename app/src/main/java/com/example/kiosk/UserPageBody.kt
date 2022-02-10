@@ -28,6 +28,10 @@ class UserPageBody: Fragment() {
         }
 
         var couponBtn: Button? = view.findViewById<Button>(R.id.couponBtn)
+        couponBtn!!.setOnClickListener{
+            var intent = Intent(context,CouponPage::class.java)
+            startActivity(intent)
+        }
 
         var giftBtn: Button? = view.findViewById<Button>(R.id.giftBtn)
 

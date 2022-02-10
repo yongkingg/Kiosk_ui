@@ -10,7 +10,4 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.menubtn_fragment)
         supportFragmentManager.beginTransaction().replace(R.id.mainlayout,StartPageBody()).commit()
     }
-
-
-
 }

@@ -25,7 +25,8 @@
         <activity android:name="com.example.kiosk.BeverageSetPage"></activity>
         <activity android:name="com.example.kiosk.PayPage"></activity>
         <activity android:name="com.example.kiosk.CakeOrderPage"></activity>
-
+        <activity android:name="com.example.kiosk.EndPage"></activity>
+        <activity android:name="com.example.kiosk.CouponPage"></activity>
 
     </application>
 </manifest>
