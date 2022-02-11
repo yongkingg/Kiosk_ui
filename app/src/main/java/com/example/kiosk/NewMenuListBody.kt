@@ -16,7 +16,6 @@ class NewMenuListBody: Fragment() {
         return view
     }
     fun initEvent(view: View){
-
         for (index in 0 until beverageList.count()){
             var beverageBtn: Button? = view.findViewById<Button>(beverageList[index])
             beverageBtn!!.setOnClickListener{
