@@ -246,11 +246,11 @@
             android:id="@+id/payBtn"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:text="결제 및 주문하기"
+            android:background="@drawable/paybtn"
             android:fontFamily="@font/body"
-            android:textSize="25sp"
+            android:text="장바구니에 담기"
             android:textColor="#ff0000"
-            android:background="@drawable/paybtn"/>
+            android:textSize="25sp" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
 

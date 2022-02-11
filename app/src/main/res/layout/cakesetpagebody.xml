@@ -250,7 +250,7 @@
             android:id="@+id/payBtn"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:text="결제 및 주문하기"
+            android:text="장바구니에 담기"
             android:fontFamily="@font/body"
             android:textSize="25sp"
             android:textColor="#ff0000"

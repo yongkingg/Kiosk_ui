@@ -59,7 +59,7 @@
                 android:layout_marginLeft="70dp"
                 android:layout_gravity="end"
                 android:adjustViewBounds="true"
-                android:background="@drawable/bell"
+                android:background="@drawable/basket"
                 android:scaleType="centerInside"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
